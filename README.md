@@ -5,6 +5,12 @@ Please read Update Notes regularly before proceeding with the task and check for
 ## Update Notes
 ### 2024-09-16 : 
 initial upload
+### 2024-10-11 :
+참고사항 공지
+- command 파일의 모든 명령어 끝은 마지막 문자 기준 공백문자 없이 개행문자로 되어있다고 가정해주시기 바랍니다. 
+  (스켈레톤 코드 command.txt 파일의 SECTION 명령어 라인 마지막 공백문자 X)
+- Queue 예외처리의 경우 (full일때 push/empty일때 pop), 프로그램이 종료되게 하거나 에러코드를 출력하는 방식 모두 가능하며,
+  그에 따라, 이후 명령어도 실행되지 않고 종료되거나, 실행되어 에러코드를 출력하는 방식 모두 가능합니다.
 
 ## How to Clone Repository
 ```
